@@ -1,0 +1,38 @@
+id	nev
+1	Aschenbrenner György
+2	Bahor Bea
+3	Balatoni Mihály
+4	Bán Attila
+5	Benik Balázs
+6	Büki Ernő
+7	Deák Attila
+8	dr. Tandari János
+9	Dudás Mihály
+10	Ferencz Ramón
+11	Ferjáncz Attila
+12	Gergely Ferenc
+13	Hadik András
+14	Herczig Norbert
+15	Hideg János
+16	ifj. Tóth János
+17	Igor Bacigál
+18	Iriczfalvy Ferenc
+19	Jójárt András
+20	Juhász István
+21	Jutassy József
+22	Kazár Miklós
+23	Kecskeméti Zoltán
+24	Kerék István
+25	Kiss Ferenc
+26	Németh László
+27	Pikó Zsuzsa
+28	Ranga László
+29	Sándor István
+30	Selmeczi György
+31	Somogyi Pál
+32	Spitzmüller Csaba
+33	Szőke Tamás
+34	Tóth Imre
+35	Turi Tamás
+36	Varga István
+37	Vincze Ferenc

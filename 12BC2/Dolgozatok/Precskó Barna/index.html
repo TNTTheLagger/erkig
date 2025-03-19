@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body onload="get(); post()" style="background-color: lightgreen;">
+    <div class="container-lg"
+        style="background-color: white; margin-top: 50px; margin-bottom: 50px; padding: 30px; border-radius: 20px; border: solid black 2px;">
+        <h1 style="text-align: center; font-weight: 100;">Füvesítési weboldal</h1> <br>
+        <label for="tipus" class="form-label">Típus :</label> <br>
+        <select id="tipus" class="form-select" aria-label="Default select example">
+            <option selected>Válasszon füvet</option>
+            <option value="Hagyományos zöld">Hagyományos zöld</option>
+            <option value="Szeder kék">Szeder kék</option>
+            <option value="Alföldi gizda">Alföldi gizda</option>
+        </select> <br>
+
+        <div class="mb-3">
+            <label for="zsak" class="form-label">Zsák(5L):</label>
+            <input type="number" class="form-control" id="zsak" placeholder="Darab">
+        </div>
+        <div class="mb-3">
+            <label for="szalitas" class="form-label">Szállítási cím:</label>
+            <input type="text" class="form-control" id="szalitas" placeholder="Település/Utca/Szám">
+        </div>
+        <label for="megjegyzes" class="form-label">Megjegyzés :</label> <br>
+        <textarea name="" id="megjegyzes">
+      </textarea> <br>
+
+        <button onclick="post(); get()" id="gomb" type="button" class="btn btn-success">Rendelés leadása</button> <br>
+
+        <h2>Rendelesek</h2><br>
+        <p id="kiir"></p>
+    </div>
+
+</body>
+
+<script>
+    function post() {
+        let tipus = document.getElementById("tipus").value;
+        var zsak = document.getElementById("zsak").value;
+        var szalitas = document.getElementById("szalitas").value;
+        var megjegyzes = document.getElementById("megjegyzes").value;
+
+        console.log(tipus + " " + zsak + " " + szalitas + " " + megjegyzes);
+
+        fetch("http://localhost/api.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                "tipus": tipus, "zsak": zsak, "szalitas": szalitas, "megjegyzes": megjegyzes
+            })
+        })
+            .then(Response => console.log(Response))
+    }
+
+    function get() {
+        document.getElementById("kiir").innerHTML = ""
+        fetch("http://localhost/api.php", {
+
+        })
+            .then(response => response.json())
+            .then(data => {
+                for (let i = 0; i < data.length; i++) {
+                    document.getElementById("kiir").innerHTML += "Típus:" + " " + data[i].tipus + " " + "|" + " " + "Mennyiseg:" + " " + data[i].zsak + " " + "|" + " " +  "Szallítási cim:" + " " + data[i].szalitas + " " + "|" + " " +  "Megjegyzes:" + " " + data[i].megjegyzes + "<br>";
+                }
+            })
+    }
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>

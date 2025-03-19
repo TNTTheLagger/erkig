@@ -1,0 +1,75 @@
+
+DROP DATABASE IF EXISTS repules_db;
+CREATE DATABASE repules_db;
+USE repules_db;
+
+
+CREATE TABLE jaratok (
+    jaratszam CHAR(6),
+    honnan VARCHAR(100) NOT NULL,
+    hova VARCHAR(100) NOT NULL,
+    indul DATETIME NOT NULL,
+    erkezik DATETIME NOT NULL,
+    PRIMARY KEY (jaratszam)
+);
+
+
+CREATE TABLE foglalasok (
+    foglalasid INT AUTO_INCREMENT,
+    nev VARCHAR(100) NOT NULL,
+    darab INT NOT NULL CHECK (darab > 0),
+    jaratszam CHAR(6) NOT NULL,
+    PRIMARY KEY (foglalasid),
+    FOREIGN KEY (jaratszam) REFERENCES jaratok(jaratszam)
+);
+
+
+INSERT INTO jaratok (jaratszam, honnan, hova, indul, erkezik) VALUES
+('AA1234', 'Budapest', 'London', '2025-03-01 08:00:00', '2025-03-01 10:00:00'),
+('BA5678', 'London', 'New York', '2025-03-02 12:30:00', '2025-03-02 18:00:00'),
+('LH9012', 'Berlin', 'Paris', '2025-03-03 09:15:00', '2025-03-03 11:00:00'),
+('AF3456', 'Paris', 'Tokyo', '2025-03-04 22:00:00', '2025-03-05 15:00:00'),
+('KL7890', 'Amsterdam', 'Dubai', '2025-03-05 14:45:00', '2025-03-05 23:30:00'),
+('EK3344', 'Dubai', 'Sydney', '2025-03-06 16:00:00', '2025-03-07 10:30:00'),
+('QR5566', 'Doha', 'Bangkok', '2025-03-07 19:30:00', '2025-03-08 06:00:00'),
+('UA7788', 'New York', 'Los Angeles', '2025-03-08 10:00:00', '2025-03-08 13:30:00'),
+('DL9900', 'Los Angeles', 'Tokyo', '2025-03-09 23:45:00', '2025-03-10 09:30:00'),
+('TK1235', 'Istanbul', 'Berlin', '2025-03-10 14:20:00', '2025-03-10 16:30:00'),
+('AZ2222', 'Rome', 'Milan', '2025-03-11 08:00:00', '2025-03-11 09:10:00'),
+('LX3344', 'Zurich', 'Vienna', '2025-03-12 10:45:00', '2025-03-12 12:00:00'),
+('SK4455', 'Stockholm', 'Copenhagen', '2025-03-13 15:30:00', '2025-03-13 16:45:00'),
+('IB5566', 'Madrid', 'Lisbon', '2025-03-14 11:20:00', '2025-03-14 12:45:00'),
+('AY6677', 'Helsinki', 'Oslo', '2025-03-15 07:50:00', '2025-03-15 09:20:00'),
+('SU7788', 'Moscow', 'St. Petersburg', '2025-03-16 13:40:00', '2025-03-16 15:10:00'),
+('AF8899', 'Paris', 'Madrid', '2025-03-17 09:30:00', '2025-03-17 11:50:00'),
+('BA9900', 'London', 'Berlin', '2025-03-18 14:10:00', '2025-03-18 16:20:00'),
+('LH1122', 'Frankfurt', 'Warsaw', '2025-03-19 17:50:00', '2025-03-19 19:30:00'),
+('TP2233', 'Lisbon', 'Barcelona', '2025-03-20 07:40:00', '2025-03-20 09:15:00'),
+('OS3344', 'Vienna', 'Brussels', '2025-03-21 10:30:00', '2025-03-21 12:10:00'),
+('LO4455', 'Warsaw', 'Prague', '2025-03-22 11:55:00', '2025-03-22 13:20:00');
+
+
+INSERT INTO foglalasok (nev, darab, jaratszam) VALUES
+('Kiss Péter', 2, 'AA1234'),
+('Nagy Anna', 1, 'BA5678'),
+('Szabó Zoltán', 3, 'LH9012'),
+('Tóth Katalin', 1, 'AF3456'),
+('Farkas István', 4, 'KL7890'),
+('Kovács Erika', 2, 'EK3344'),
+('Mészáros Béla', 5, 'QR5566'),
+('Oláh Judit', 1, 'UA7788'),
+('Varga Dániel', 3, 'DL9900'),
+('Török Tamás', 2, 'TK1235'),
+('Molnár Krisztina', 1, 'AZ2222'),
+('Balogh László', 2, 'LX3344'),
+('Horváth Gábor', 4, 'SK4455'),
+('Szilágyi András', 3, 'IB5566'),
+('Gulyás Péter', 2, 'AY6677'),
+('Papp Lilla', 1, 'SU7788'),
+('Kocsis Attila', 2, 'AF8899'),
+('Bognár Máté', 3, 'BA9900'),
+('Lakatos Noémi', 2, 'LH1122'),
+('Fülöp Csaba', 1, 'TP2233'),
+('Juhász Edina', 4, 'OS3344'),
+('Kiss Gergely', 2, 'LO4455'),
+('Varga Béla', 2, 'IB5566');

@@ -1,0 +1,15 @@
+A városok, illetve országok sorszámát írd a vaktérkép megfelelő pontjaihoz, területeihez!
+
+1. Konstanca
+2. Isztanbul
+3. Várna
+4. Odessza
+5. Törökország
+6. Románia
+7. Georgia 
+
+Melyik ország van zöldre színezve?   
+Az alábbi fotók mely országokban készültek?
+
+
+

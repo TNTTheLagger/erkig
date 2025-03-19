@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="z-3">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body onload="listaz()">
+    <div class="mb-3 container z-2 shadow-lg p-3 mb-5 rounded" style="width: 800px; background-color: wheat; outline: 1px black solid;">
+        <div class="mb-3">
+            <label for="cim" class="form-label">Név:</label>
+            <input type="text" class="form-control" id="nev">
+        </div>
+        <div class="mb-3">
+            <label for="kategoria" class="form-label">Kategória:</label>
+            <select id="kategoria" class="form-select">
+                <option selected>Valassz egyet</option>
+                <option value="madar">Madár</option>
+                <option value="medve">Medve</option>
+                <option value="majom">Majom</option>
+                <option value="hal">Hal</option>
+                <option value="kigyo">Kígyó</option>
+            </select>    
+        </div>
+        <div class="mb-3">
+            <label for="eletkor" class="form-label">Életkor:</label>
+            <input type="number" class="form-control" id="eletkor">
+        </div>
+        <div class="mb-3">
+            <input type="button" class="btn btn-primary btn-md" onclick="rogzites()" value="rogzites">
+        </div>
+        <div class="mb-3">
+            <label class="form label fw-bold">Név</label>
+            <label class="form label fw-bold">Kategória</label>
+            <label class="form label fw-bold">Életkor</label>
+            <hr>
+            <p id="listazo"></p>
+        </div>
+      </div>
+ 
+</body>
+<script>
+    function rogzites()
+    {
+        let nev = document.getElementById("nev").value;
+        let kategoria = document.getElementById("kategoria").value;
+        let eletkor = document.getElementById("eletkor").value;
+ 
+        fetch("http://localhost/api.php", {
+            method: "POST",
+            headers: {"Content-Type" : "application/json"},
+            body: JSON.stringify({"nev": nev, "kategoria": kategoria, "eletkor": eletkor})
+        })
+        .then(response => response.json())
+        .then(data => console.log(data))
+    }
+
+    function listaz()
+    {
+        fetch("http://localhost/api.php")
+        .then(response => response.json())
+        .then(data => {
+            let adatok = data;
+            for (let i = 0; i < adatok.length; i++)
+            {
+                console.log(adatok);
+                document.getElementById("listazo").innerHTML = "";
+                document.getElementById("listazo").innerHTML += adatok[i].Nev + " "+  adatok[i].Kategoria + " " +  adatok[i].Eletkor + "<hr>";
+
+            }
+        })    
+    }
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

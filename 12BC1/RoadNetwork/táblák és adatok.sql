@@ -1,0 +1,43 @@
+CREATE TABLE cities (
+    id INT PRIMARY KEY,
+    x INT,
+    y INT
+);
+
+INSERT INTO cities (id, x, y) VALUES
+(1, 50, 100),
+(2, 120, 80),
+(3, 200, 150),
+(4, 300, 200),
+(5, 400, 250),
+(6, 450, 400),
+(7, 350, 450),
+(8, 250, 350),
+(9, 150, 300),
+(10, 100, 200);
+
+CREATE TABLE roads (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    city_from INT,
+    city_to INT,
+    distance FLOAT,
+    FOREIGN KEY (city_from) REFERENCES cities(id),
+    FOREIGN KEY (city_to) REFERENCES cities(id)
+);
+
+INSERT INTO roads (city_from, city_to, distance) VALUES
+(1, 2, SQRT(POWER(120-50, 2) + POWER(80-100, 2))),
+(2, 3, SQRT(POWER(200-120, 2) + POWER(150-80, 2))),
+(3, 4, SQRT(POWER(300-200, 2) + POWER(200-150, 2))),
+(4, 5, SQRT(POWER(400-300, 2) + POWER(250-200, 2))),
+(5, 6, SQRT(POWER(450-400, 2) + POWER(400-250, 2))),
+(6, 7, SQRT(POWER(350-450, 2) + POWER(450-400, 2))),
+(7, 8, SQRT(POWER(250-350, 2) + POWER(350-450, 2))),
+(8, 9, SQRT(POWER(150-250, 2) + POWER(300-350, 2))),
+(9, 10, SQRT(POWER(100-150, 2) + POWER(200-300, 2))),
+(10, 1, SQRT(POWER(50-100, 2) + POWER(100-200, 2))),
+(2, 9, SQRT(POWER(150-120, 2) + POWER(300-80, 2))),
+(4, 8, SQRT(POWER(250-300, 2) + POWER(350-200, 2))),
+(5, 9, SQRT(POWER(150-400, 2) + POWER(300-250, 2))),
+(7, 3, SQRT(POWER(200-350, 2) + POWER(150-450, 2))),
+(1, 6, SQRT(POWER(450-50, 2) + POWER(400-100, 2)));

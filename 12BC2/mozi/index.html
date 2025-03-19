@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<style>
+    .btn{
+        width: 4%;
+        margin: 3px;
+    }
+</style>
+
+<body onload="leker();kiir()">
+    
+    <div id="nezoter" class="text-center">
+
+    </div>
+
+    <script>
+
+        let adatok=[];
+        for (let i = 0; i < 10; i++) {
+            let sor = []
+            for (let j = 0; j < 20; j++) {
+               sor.push(0);
+            }
+            adatok.push(sor);
+        }
+        
+        function leker(){
+            fetch("http://localhost/api.php")
+            .then(response => response.json())
+            .then(data => {
+                for (let i = 0; i < data.data.length; i++) {
+                    let s = data.data[i]["sorszam"]-1;
+                    let o = data.data[i]["szekszam"]-1;
+                    adatok[s][o] = 1;
+                }
+                console.log(adatok);
+            })
+        }
+
+
+        function kiir() {
+            let nezoter = document.getElementById("nezoter");
+
+
+            for (let i = 0; i < 10; i++) {
+                for (let j = 0; j < 20; j++) {
+                    let gomb = document.createElement("input");
+                    gomb.type = "button";
+                    gomb.value = (i+1)+ "/" + (j+1);
+                    gomb.classList.add("btn","btn-success");
+                    gomb.id = (i+1)+ "/" + (j+1);
+                    gomb.onclick = function(){
+                        gomb.classList.add("btn-danger");
+                        adatok[this.id.split("/")[0]-1][this.id.split("/")[1]-1] = 1;
+                        let s = this.id.split("/")[0];
+                        let o = this.id.split("/")[1];
+                        console.log(s+" "+o);
+                        fetch("http://localhost/api.php",{
+                            method:"POST",
+                            headers:{
+                                "Content-Type":"application/json"
+                            },
+                            body:JSON.stringify({"sorszam":s, "szekszam":o})
+                        })
+                        .then(response => response.json())
+                        .then(data => console.log(data));
+                        
+                    }
+                    nezoter.appendChild(gomb);
+                }
+                nezoter.appendChild(document.createElement("br"));
+            }
+        }
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

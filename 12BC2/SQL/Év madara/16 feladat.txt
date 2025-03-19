@@ -1,0 +1,2 @@
+Listázd ki az összes olyan faj nevét a család nevével együtt ahol a fajnévben szerepel a "réce" vagy "vércse" szöveg! 
+Jelenjen meg a fajok eszmei értéke is! A madarak az eszmei értékük szerint csökkenő, azon belül a fajnév szerinti növekvő rendben jelenjenek meg!

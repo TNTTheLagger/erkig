@@ -1,0 +1,17 @@
+CREATE DATABASE tura_db DEFAULT CHARACTER SET utf8 COLLATE utf8_hungarian_ci;
+USE tura_db;
+
+CREATE TABLE turak (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nev VARCHAR(255) NOT NULL,
+    tav INT NOT NULL,
+    elerheto_hely INT NOT NULL
+);
+
+CREATE TABLE jelentkezesek (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tura_id INT NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    letszam INT NOT NULL,
+    FOREIGN KEY (tura_id) REFERENCES turak(id) ON DELETE CASCADE
+);

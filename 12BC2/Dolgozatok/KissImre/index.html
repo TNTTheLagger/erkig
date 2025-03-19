@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body onload="kiir()"class="bg-dark">
+    <div class="container-lg mt-5 bg-light pb-3 pt-1" style="border-radius: 10px;">
+        <div>
+            <h2 class="mt-5 d-flex justify-content-center">Blog posztolása:</h2>
+            <label for="nev" class="mt-3">Neved:</label>
+            <input type="text" id="nev" name="nev" class="form-control mt-2" style="border-color:black;">
+            <label for="kor" class="mt-3">Korod:</label>
+            <input type="number" id="kor" name="kor" class="form-control mt-2" style="border-color:black;">
+            <label for="tema" class="mt-3">Téma:</label>
+            <select name="tema" id="tema" class="form-select mt-2" style="border-color:black;">
+                <option>Válasz ki egy témát</option>
+                <option value="zene">Zenék</option>
+                <option value="film">Filmek</option>
+                <option value="sport">Sport</option>
+                <option value="jatekok">Játékok</option>
+            </select>
+            <label for="poszt" class="mt-3">Posztod:</label>
+            <input type="text" id="poszt" name="poszt" class="form-control mt-2" placeholder="Ide írhat" style="border-color:black;">
+            <input type="button" class="btn btn-primary mt-4" value="Rögzit" onclick="Rogzit()">
+        </div>
+        <div>
+            <p class="mt-5 " id="kiir"></p>
+        </div>
+    </div>
+
+    <script>
+        function Rogzit()
+        {
+            let nev = document.getElementById("nev").value;
+            let kor = document.getElementById("kor").value;
+            let tema = document.getElementById("tema").value;
+            let poszt = document.getElementById("poszt").value;
+
+            fetch('http://localhost/api.php',{
+                method : "POST",
+                headers : {"Content-type" : "application/json"},
+                body : JSON.stringify({"nev" : nev, "kor" : kor, "tema" : tema, "poszt" : poszt}) 
+            });
+        }
+
+        function kiir()
+        {
+            fetch('http://localhost/api.php')
+            .then(response => response.json())
+            .then(data => {
+               let adatok = data;
+               document.getElementById("kiir").innerHTML = "";
+               for (let i = 0; i < adatok.length; i++) {
+                document.getElementById("kiir").innerHTML += adatok[i].nev + "<br>" + adatok[i].kor + "<br>" + adatok[i].tema + "<br>" + adatok[i].poszt + "<br> <br>"
+               }
+            })
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

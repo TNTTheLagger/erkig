@@ -1,0 +1,8 @@
+Ajtó: 75 x 150mm
+Nyíl: Tetszőleges (javasolt kb. 60 x 30mm)
+Fej: 30 x 30mm
+Láb: 12 x 45mm
+Kar: 12 x 37,5mm
+Test: 36 x 75mm
+Szöveg: 144pt
+Háttér: RGB(60,180,60)

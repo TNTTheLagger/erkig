@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row justify-content-center" >
+        <div class="col-sm-4 col-12">
+            <h1>Járatok</h1>
+            <label>Honnan</label>
+            <div class="input-group mb-3">
+                <input placeholder="pl:Berlin" style="width: 100%;" id="honnan" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+
+              <label>Hová</label>
+            <div class="input-group mb-3">
+                <input placeholder="pl: Budapest" style="width: 100%;" id="hova" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+             <input type="button" value="Listáz" class="btn btn-primary mb-3" onclick="jaratLeker()"> 
+             <div class="list-group" id="jaratok"></div>
+
+        </div>
+        <div class="col-sm-4 col-12">
+            <h1>Új foglalás</h1>
+            <label>Járatszám</label>
+            <div class="input-group mb-3">
+                <input style="width: 100%;" id="jaratszam" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <label >Név</label>
+            <div class="input-group mb-3">
+                <input style="width: 100%;" id="nev" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <label >Utazók száma</label>
+            <div class="input-group mb-3">
+                <input style="width: 100%;" id="utazokszama" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <input type="button" value="Foglal" class="btn btn-primary mb-3" onclick="foglal()"> 
+        </div>
+        <div class="col-sm-4 col-12">
+            <h1>Fogalalások</h1>
+            <div class="list-group" id="foglalasok"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,99 @@
+Kézilabda
+A kézilabda egy labdajáték. A labdát csak kézzel szabad dobni, a kapus kivételével lábbal nem szabad hozzáérni. A csapat 16 játékosból áll, a játéktéren egy időben legfeljebb 7 játékos tartózkodhat. A többi játékos cserejátékos. Az a csapat nyer, amelyik rendes játékidőben több gólt ér el. Ha mindkét csapat azonos számú gólt ér el, a játék döntetlen eredménnyel végződik. Abban az esetben ha továbbjutáshoz el kell dönteni a nyertest akkor 2×5 perces hosszabbítás következik. Ha ezután is döntetlen az eredmény akkor 7 méteres dobással döntik el, ki a nyertes. Egyes versenyeken a rendes játékidő letelte után egyből hétméteres dobások következnek, hosszabbítás nincs.
+A kézilabdát általában fedett csarnokban játsszák, de ismert szabadban játszott változata is. Egyre kedveltebb a strandkézilabda nevű változata is. A szivacskézilabdát főleg a fiatal kézilabdázók játsszák, a kézilabdáéhoz hasonló szabályokkal, csak könnyebb labdával és kisebb játékterületen.
+Története
+A kézilabdázás alapmozgásai – futás, ugrás, cselezés, dobás –, mint a létfenntartás eszközei, az emberré válással párhuzamosan indultak fejlődésnek. Az 1800-as évek végén és az 1900-as évek elején a torna volt a kor domináns sportága. Új mozgásforma kellett, amely szakít a torna kötött szabályaival, élvezetes, szórakoztató, nők is játszhatják, illetve a túlságosan eldurvult labdarúgásnál és a rögbinél „finomabb”.
+Hozzávetőlegesen a századforduló környékén három, egymáshoz meglehetősen hasonló játék fejlődött ki:
+haandbold,
+torball,
+hazena.
+Ezek a játékok a mai kézilabdázás közvetlen elődjeinek tekinthetőek.
+Haandbold
+A játék alapötlete Holger Nielson dán iskolamester nevéhez fűződik, aki a túl sok betört ablakot okozó futball helyett igyekezett tanítványai számára egy másik labdajátékot kitalálni. A labda pontosabb továbbítására ezért a lábuk helyett a kezüket kezdték el használni a játékosok, és a kezdeti kísérletezés olyan sikeresnek bizonyult, hogy az új játék hamarosan teret hódított Dániában.
+Torball
+A játék egyik németországi úttörője az a Hermann Bachmann volt, akinek nevéhez a játék szabályainak összeállítása, majd a részletes leírása fűződik. A 40×20 méteres játéktéren, a 4 méter sugarú kapuelőtérrel űzött játék sok hasonlóságot mutat a mai kézilabdázással, és Németországban sok hódolót nyert meg a sportág ügyének.
+Hazena
+A Václav Karas és Antonin Kristof által megalkotott játék Prágában debütált először, a közvélemény teljes megelégedésére. A pálya mérete (48×32 méter), a kapuelőtér alakja (6 méter sugarú félkörív), a kapu mérete (2×2,4 méter) és a játékidő (2×25 perc) már sok hasonlóságot mutat a kézilabdázás mai paramétereivel. A játékteret azonban három egyenlő harmadra osztották, behatárolva a hátvédek, a középpályások, illetve a csatárok mozgáskörzetét, a kapusok pedig nem hagyhatták el saját kapuelőterüket.
+Ez a három kezdetleges kézilabdajáték jelentős népszerűségre tett szert Európában, amit a tornák és mérkőzések egyre növekvő száma is bizonyít. Mivel azonban mindhárom játékot különböző szabályok szerint játszották, nagyobb szabású nemzetközi tornák szervezése állandóan akadályokba ütközött. Ezért szükségessé vált a szabályok egyesítése, amelyet a német Karl Schelenz vállalt fel, és az új játékszabályok 1917-ben, Berlinben láttak napvilágot.
+Nagypályás kézilabda
+Ezt 11–11 játékossal futballpályán kezdték el játszani a sportág hódolói, és évtizedeken keresztül a sportág elfogadott versenyzési formájává vált, amelynek a népszerűsége egyre növekedett.
+Először a Nemzetközi Atlétikai Szövetség karolta fel a „labdajátékokat” szövetségi szinten, és albizottságot hozott létre, majd 1928-ban Amszterdamban megalakult a Nemzetközi Amatőr Kézilabda Szövetség (IAHF). 1936-ban Berlinben a nagypályás kézilabdázás az olimpiai programban is szerepelt. A háborús időszak viszont visszavetette a kézilabdázás fejlődését, és csak 1946-ban, Koppenhágában alakult újjá a Nemzetközi Kézilabda Szövetség. Székhelye 1950 óta Basel (Svájc).
+Kispályás kézilabda
+A kézilabdázás első formájaként a kispályás játék jelent meg, de az 1920-as évektől inkább a nagypályás játék volt az uralkodó. Az észak-európai országok jelentős részében az időjárás viszontagságai jelentősen csökkentették a játéklehetőségeket (elsősorban Svédországban), ezért főleg teremben folyt a játék, így ők nagypályás játékot gyakorlatilag nem igazán játszottak, sőt ezekben az országokban a kézilabdázás teremsportként vert gyökeret.
+Jelentős változást az 1950–60-as évek hoztak: a kispályás kézilabda a maga sebességével, változatosságával és lüktető ritmusával fokozatosan háttérbe szorította a lassúbb nagypályás kézilabdázást. 1957-ben megrendezték a Szpartakusz villámtornát.
+Az 1969-re tervezett nagypályás világbajnokságot érdeklődés hiánya miatt már nem is rendezték meg.
+1966 után már csak kispályás mérkőzéseket rendeztek, a nagypályás kézilabdázás nemzetközileg megszűnt. Az újabb mérföldkő 1972: a férfi kézilabda újra bemutatkozhatott az olimpián, Münchenben. 1976-ban aztán a következő olimpián, Montréalban már a női csapatok is lehetőséget kaptak a versengésre, és az olimpiai tornák mindkét nem számára a sportág kiemelt fontosságú eseményévé léptek elő.
+Kézilabda Villámtorna – 1957
+Az 1980-as években a kézilabdázást az egyre növekvő népszerűség, a szabályok megszilárdulása, a sportág megerősödése és technikai-taktikai repertoárjának látványos fejlődése jellemezte. A kilencvenes évekre a kézilabdázás az egyik legnépszerűbb sportággá nőtte ki magát. 1994-től Kézilabda-Európa-bajnokságokat is rendeznek. A 2000-es évek elején megjelent a strandkézilabda.
+Napjainkban már jóval száz fölé emelkedett a tagországok száma, és összesen több mint tízmillió játékos űzi versenyszerűen a kézilabdát. Hazánkban is az egyik legnépszerűbb sportágnak számít. Az előző évtizedekben meghatározó szerepet játszó európai országok mellett ázsiai, afrikai, amerikai, sőt óceániai országokban is rohamosan fejlődik, népszerűsödik a játék. A világbajnokságokon 24 válogatott vehet részt.
+Alapszabályok
+Játéktér
+A kézilabdát 40×20 méteres, téglalap alakú játékterületen játsszák. A pálya körül az oldalvonalak mentén legalább egyméteres, az alapvonal mögött legalább kétméteres biztonsági zóna kialakítása szükséges.
+Kapuelőtér: A két kapu előtt található folyamatos vonallal körülvett rész. Ezt a vonalat a kapuktól 6 méterre húzzák meg. Itt csak a kapus tartózkodhat, az itt lévő labda az övé. Kidobást kivéve a levegőben lévő labda megjátszható. Mezőnyjátékos belépéséért szabaddobás, kiállítás vagy büntető is járhat. Csak akkor marad büntetlen, ha a támadó játékos belöki a védő játékost.
+Szaggatott szabaddobási vonal: Minden pontja a kaputól 9 méterre, a kapuelőtér-vonaltól 3 méterre van felfestve.
+Hétméteres vonal: A kaputól 7 méterre található 1 méter széles vonal. A vonal mögött kell elhelyezkedni a hétméteres büntetődobásnál. Párhuzamos a gólvonallal.
+Gólvonal: A két kapufa mögött van, párhuzamos a büntetődobó-vonallal. Ha ezen szabályosan áthalad a labda, azt gólnak kell tekinteni.
+Kapus-határvonal: 15 centiméter hosszú, a kapu előtt 4 méterrel van. Hétméteres dobásnál a kapus nem lépheti át mindaddig, amíg a dobó játékos kezét a labda el nem hagyta.
+Középvonal: A pályát két egyenlő területű térfélre osztja, a két oldalvonal felezőpontjának összekötésével.
+Oldalvonal: A pálya hosszabb oldala. Ha kívül kerül rajta a labda, akkor a labdát utoljára érintő csapat ellenfele végezhet el bedobást.
+Cserevonal: Az oldalvonalra merőleges, a felezővonaltól 4,5 méterre meghúzott vonal. A játékosok a felezővonal és a cserevonal közötti területen végezhetik el a játékoscseréket.
+A játékidő
+A rendes játékidő 2 × 30 perc, a félidei szünet 15 perc. Fiatalabb korosztályú csapatok esetében 8 - 12 év között a rendes játékidő 2 × 20 perc, 12 - 16 év között pedig 2 × 25 perc, mindkét esetben 10 perc szünettel. A félidei szünetek hossza Magyarországon a nemzeti bajnokságban és a kupamérkőzéseken 10 perc, nemzetközi mérkőzéseken ettől eltérhetnek, általában 15 perc.
+A kézilabdában a játékidő a játékmegszakítások (pl. szabálytalanság megítélése, gól utáni középkezdés stb.) alatt is megy, azonban ha a játék várhatóan hosszabb időre megszakad (pl. sérülést követő ápolás miatt), akkor a játékvezetőknek lehetőségük van az órát erre az időszakra megállítani. Vannak továbbá olyan esetek, amikor a játékvezetőknek kötelező megállítaniuk a játékidőt. Ilyen például egy játékos időleges kiállítása (2 perces büntetés) vagy kizárása (piros lap). A játékidő lejárta szigorúan értelmezendő: az utolsó másodperc leteltekor a mérkőzés befejeződött. A még játékidőben ellőtt, de a kapuba csak a játékidő letelte után beérkező lövés – ellentétben a kosárlabdával – nem minősül érvényes találatnak. A szabályos találat eléréséhez az kell, hogy a labda még a rendes játékidő letelte előtt teljes terjedelmével áthaladjon a gólvonalon. Amennyiben azonban még a játékidőn belül szabaddobást vagy 7 méteres dobást ítélnek a játékvezetők, akkor az elvégezhető a játékidőn túl is (ún. időntúli szabaddobás vagy 7 méteres dobás). Ilyen esetben a labdát közvetlenül kapura kell lőni, annak átadására, vagy az esetlegesen a kapusról, kapufáról kipattanó labda újbóli megjátszására már nincs mód, de a kapusról vagy a kapufáról a kapuba pattanó labda érvényes gólt jelent.
+Bizonyos esetekben, például kupameccseken, a mérkőzés nem végződhet döntetlenre, a meccsnek az egyik fél győzelmével és a másik vereségével kell végződnie. Ilyenkor, ha a rendes játékidő után mégis döntetlenre állnának a csapatok, akkor öt perc szünetet követően 2 × 5 perc hosszabbítás következik, egyperces félidei szünettel. Ha ezután is döntetlen lenne az állás, akkor 7 méteres dobások következnek. A csapatok ilyenkor felváltva 5-5 hétméterest végeznek el, majd az nyer, aki többet értékesített belőlük. Előfordulhat azonban, hogy még ekkor is döntetlenre állnak az ellenfelek. Ekkor egyesével felváltva lövik a 7 métereseket addig, amíg az egyik csapat belövi, a másik pedig nem. Egyes versenyeken a kiírás rendelkezhet úgy is, hogy a rendes játékidő letelte után egyből hétméteres dobások következnek, hosszabbítás nincs.
+Labda
+A kézilabdát bőr vagy műanyag borítású labdával játsszák, életkortól és nemtől függően eltérő méretű labdákkal.
+A kézilabdát a játékosok általában waxolják a jobb tapadás érdekében. Ezáltal válnak kivitelezhetővé az igazán látványos lövések, mint például a pattintott csavart lövés, a „cunder”.
+Labdaméret	Korosztály	A labda kerülete (cm)	A labda tömege (g)
+1	8–14 év közötti leányok	50-52	290-330
+	8–12 év közötti fiúk		
+2	14 év feletti nők	53-56	320-375
+	12–16 év közötti fiúk		
+3	16 év feletti férfiak	58-60	425-475
+Kapu
+A két kapu a pályán egymással szemben, a két alapvonal közepén helyezkedik el. Mérete: 2 méter magas és 3 méter széles. A kapukat rögzíteni kell a szilárd talajhoz, és két különböző színnel kell befesteni.
+Zsűri
+Időmérő – játékidő-felelős
+Titkár – jegyzőkönyvvezető.
+A kispad
+Az általában hét cserejátékos, a gyúró, az orvos és az edzők helye.
+A kézilabda-csapat
+Egy kézilabdacsapat 14 játékosból áll. A játéktéren egyszerre maximum hét játékos tartózkodhat, a többiek a csereterületen foglalnak helyet. Mindig kell egy kijelölt kapus a pályára, aki a többiekétől eltérő mezt visel. A kapus mezőnyjátékosként is szerepeltethető, illetve egy mezőnyjátékos is átveheti a kapus feladatkörét, ha megfelelően elkülönül a ruházata a mezőnyjátékosokétól. Bizonyos versenyeken engedélyezik 16 fős keretek nevezését, azonban a játéktéren ilyen mérkőzéseken is csak hét játékos szerepelhet egyszerre, azaz a cserepadon ülő, és szükség esetén a mérkőzésre becserélhető játékosok számát növelték meg. Így növekszik az edzők variációs lehetősége, illetve a játék megnövekedett sebességéből fakadó erősebb fizikai igénybevételt is könnyebb kezelni, ha a több felhasználható cserejátékos bevetésével több pihenőidő biztosítható a játékosok számára.
+Egy mérkőzésen tetszőleges számú csere hajtható végre úgy, hogy a lecserélt játékos a cserevonalnál hagyja el a pályát. Ha a becserélendő játékos hamarabb lép pályára, minthogy a lecserélt játékos elhagyná azt, az szabálytalan cserének minősül, és kétperces büntetéssel büntetendő. Több más labdajátéktól eltérően a csere alatt a játék nem áll meg, a cserét – hacsak a játék egyéb okból nem áll – folyamatos játék közben kell végrehajtani. Ugyanazon játékos is korlátlanul be-, illetve lecserélhető a mérkőzés folyamán, erre sincs semmilyen korlátozás, sőt, bevett gyakorlat, hogy a csapatok folyamatosan cserélik játékosaikat, így egyrészt lehet őket a játék közben is pihentetni, másrészt megoldható, hogy egyes játékosok csak támadásban vagy csak védekezésben legyenek a pályán.
+Mezőnyjátékosok
+A csapat mezőnyjátékosainak egységes öltözéket kell viselniük, amelynek megjelenése az ellenféltől világosan el kell különüljön. A játékosok nem viselhetnek olyan tárgyat magukon, ami veszélyezteti a saját vagy játékostársaik testi épségét.
+A mezőnyjátékos kézzel, karral, fejjel, törzzsel, combbal és térddel érhet a labdába, a labdát ilyen módszerekkel is csak legfeljebb három másodpercig érintheti. Labdával a kézben maximum három lépést lehet megtenni.
+Nem szabad a labdát a saját csapat birtokában tartani a támadási akciók felismerhetősége nélkül, illetve kapura lövési kísérlet elmulasztásával. Ez passzív játéknak minősül. A játékvezető, miután felismerte ezt a jelenséget, figyelmeztetésképpen felemeli az egyik kezét, és ha ezután sem változik a támadás intenzitása, nincs kapura lövési kísérlet, akkor a labdát birtokló csapat ellen szabaddobást ítél. Főként ez a szabály teszi ezt a sportágat gyorssá és látványossá, nem engedélyezve egyik csapatnak sem, hogy feladja a gólszerzésre irányuló törekvését.
+A mezőnyjátékos lehet:
+Jobbszélső	
+támadáskor: balkezes, szélső játékos, indításoknál gyakran ő ugrik be, vagy középre tör
+védekezéskor: posztján védekezik, zavaró, vagy középső védő
+Jobbátlövő	
+támadáskor: balkezes, átlövő játékos, tehát az egyik fő gólszerző, fontos a játékkapcsolata a belső emberekkel
+védekezéskor: posztján középső védő
+Irányító	
+támadáskor: jobb- vagy balkezes, ő a karmester: a csapat vezére, mozgatója, „figura-bemondója”
+védekezéskor: posztján szélső védő vagy zavaró
+Balátlövő	
+támadáskor: jobbkezes, átlövő játékos, tehát az egyik fő gólszerző, fontos a játékkapcsolata a belső emberekkel
+védekezéskor: posztján középső védő
+Balszélső	
+támadáskor: jobbkezes, szélső játékos, indításoknál gyakran ő dob ziccert, vagy középre tör
+védekezéskor: posztján védekezik, zavaró, vagy középső védő
+Beálló	
+támadáskor: jobb- vagy balkezes, a „húsdarálóból” gyakran befordul és lő, de főleg nyitja és zárja a falat
+védekezéskor: posztján középső védő
+Kapusok
+A kapus a saját kapujának előterében korlátlanul mozoghat, akár a labdával is, figyelmen kívül hagyva a mezőnyjátékosokra érvényes lépésszabályt. A kapus a kapuelőtérben védekezés céljából bármely testrészével érintheti a labdát, azonban eközben nem veszélyeztetheti az ellenfelet. A kapuelőteret elhagyva viszont a mezőnyjátékosokra vonatkozó szabályok érvényesek rá is. A hatos vonalon kívül nem ütközhet az ellenfél játékosával, különben piros lappal kizárják, azaz a mérkőzés hátralévő idejében nem léphet már pályára.
+Játékvezetők
+A kézilabda-mérkőzést két egyenjogú játékvezető vezeti. A mérkőzéseken csak a csapatfelelősök szólhatnak hozzájuk. A mérkőzés előtt a játékvezetők ellenőrzik a játéktér, a kapuk és a labdák állapotát, ellenőrzik a csapatok felszerelését, a játékosok öltözékét.
+A mérkőzés megkezdésekor az egyik játékvezető, mint mezőny-játékvezető, a középvonalnál helyezkedik el, ő a támadó csapat támadási iránya felé néz, míg a másik a védekező csapat mögül, az alapvonalnál figyeli az eseményeket. A két játékvezető szerepe a támadások váltakozásával felcserélődik. Síppal és karjelzésekkel adnak utasításokat.
+Magyarország első két női játékvezetője Pécsen debütált: Füzes Anita és Kolat Irén.
+A sportág magyarországi története
+A kézilabda magyarországi történetét egy magyar atléta, Cséfay Sándor alapozta meg, aki egy európai túra során figyelt fel a különös játékra. Az akkoriban még labdarúgópályán játszott játék egy életre rabjává tette. Később 1933. március 30-án önálló szövetségként megalakult a Magyar Kézilabda Egyesületek Szövetsége. A magyar férfi válogatott az 1936-os berlini olimpián szerepelt először, 1938-ban pedig világbajnoki bronzérmet szerzett. Ez jelentősen növelte a sportág népszerűségét és elősegítette számos klub létrejöttét. A második világháború jelentősen megtépázta a kézilabda sportot is, de az 1949-ben Budapesten megrendezett női nagypályás világbajnokságon a magyar válogatott mégis aranyérmet szerzett. Ezt követően azonban Észak-Európából elindult világhódító útjára a kisméretű pályán játszott kézilabda, melyet Magyarországon elsősorban szabadban, de Európa nagy részén már teremben űztek. Ezzel megpecsételődött a nagypályás kézilabda sorsa.
+A játék a kisméretű pálya révén felgyorsult, több gól született, a stratégia is fontosabb szerepet kapott, mindezek együtt jelentősen növelték a sportág népszerűségét. Az 1950-es évekre a Nemzetközi Kézilabda Szövetség (IHF) már sűrű programot bonyolított évente, ekkor indult ugyanis útjára a világbajnokság, melyen elsősorban a nők szerepeltek sikeresebben, olyannyira, hogy 1957-ben ezüstérmet nyertek, majd 1965-ben világbajnokok lettek Dortmundban. Ez idő tájt az IHF elindította a klubcsapatoknak kiírt három európai kupát. A Bajnokok kupája, az IHF kupa, és a Kupagyőztesek Európa-kupája nagyot lendített a játékosok technikai fejlődésén. Akkoriban a magyar csapatok közül a férfiaknál a Tatabánya, a Bp. Honvéd, a Győr és a Debrecen, míg a nőknél az FTC, a Bp. Spartacus és a Vasas vívott ki magának nemzetközi hírnevet.
+1972-ben elindult a sportág olimpiai története. Ezekben az években a magyar válogatottak rendszeresen vettek részt a világbajnokságok döntőiben. Ez az időszak főként a hölgyekről szólt. 1977-ben az FTC női csapata megnyerte a KEK-et. A nyolcvanas évekre már a férfiak is jobban szerepeltek, két olimpiai 4. helyet szereztek, és a hölgyek is kiharcoltak egy 4. helyet. Az 1982-es, Magyarországon rendezett világbajnokságon a nők, míg 1986-ban Svájcban a férfiak értek el második helyezést. Emellett 1982-ben férfiágon a Budapesti Honvéd, a nőknél pedig a Vasas megnyerte a Bajnokok Kupáját.
+1991-ben megalakult az Európai Kézilabda-szövetség (EHF). Ezekben az években újra megindult a sportág fejlődése, olyannyira, hogy a második legnépszerűbb sportág lett az országban, és a mérkőzéseket gyakran teltházas csarnokokban játszották. A női válogatott ebben az időben előbb egy világbajnoki 2. helyet, majd egy olimpiai 3. helyet szerzett Laurencz László szövetségi kapitány irányítása alatt. A Dunaferr női kézilabdacsapata 1995-ben megnyerte az EHF-kupagyőztesek Európa-kupáját, majd 1998-ban az EHF kupát.
+Az ezredfordulót Sydneyben egy olimpiai 2. hellyel és egy romániai Európa-bajnoki címmel ünnepelték a lányok, Mocsai Lajos vezetésével. Ezekben az esztendőkben a női vonal újra magasra ívelt. A Dunaferr 1999-ben megnyerte a Bajnokcsapatok Európa Kupáját és a szuperkupát, emellett a Debrecen elhódította az EHF-kupát, amire a Cornexi csapata is képes volt 2005-ben. Az FTC 2002-ben játszott BEK-döntőt, míg 2006-ban megnyerte az EHF-kupát. A Győri ETO kétszer is az EHF-kupa és a KEK döntőjében szerepelt, 2009-ben pedig a Bajnokok ligája döntőjéig jutottak, majd 2013-ban megnyerték a Bajnokok ligáját, ezzel ők lettek Európa legjobb csapata. 2014 májusában jött a duplázás, így ismét az ETO lett Európa legjobbja. Férfi vonalon a Veszprém nyújtott kimagaslót, csapata négyszer jutott a döntőig Bajnokok ligájában, majd 2014-ben a 4. helyig ért el, de meg kell említeni a Dunaferr 2000-ben KEK-döntős csapatát is. 2008-ban az MKB Veszprémnek, míg 2011-ben és 2012-ben az FTC női csapatának sikerült elhódítania a KEK-trófeát. 2014-ben a Pick Szeged nyerte meg EHF kupát.
+
+

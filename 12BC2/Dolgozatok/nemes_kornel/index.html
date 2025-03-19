@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body onload="get()">
+
+<div class="container-md">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="card">
+                <div style="margin: 40px;">
+                    <H1 class="text-center">Új építkezés felvétele</H1>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Építkezés</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" id="epitkezes" aria-describedby="inputGroup-sizing-default">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Emberek</span>
+                    <input type="number" class="form-control" aria-label="Sizing example input" id="emberek" aria-describedby="inputGroup-sizing-default">
+                  </div>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Kezdés</span>
+                    <input type="date" class="form-control" aria-label="Sizing example input" id="epitkezes_kezdete" aria-describedby="inputGroup-sizing-default">
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                            <input type="checkbox" class="btn-check" onchange="material_options()" id="fa" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="fa">Fa</label>
+                          
+                            <input type="checkbox" class="btn-check" onchange="material_options()" id="tegla" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="tegla">Tégla</label>
+                          
+                            <input type="checkbox" class="btn-check" onchange="material_options()" id="fem" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="fem">Fém</label>
+                          </div>
+                          <div>
+                            <div id="fat" style="display: none;">
+                                <div class="input-group input-group-sm mb-3" >
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Fa(t)</span>
+                                    <input type="number" class="form-control" aria-label="Sizing example input" id="famennyiseg" aria-describedby="inputGroup-sizing-sm">
+                                  </div>
+                            </div>
+                            
+                              <div id="teglat" style="display: none;">
+                                <div class="input-group input-group-sm mb-3" >
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Tégla(t)</span>
+                                    <input type="number" class="form-control" aria-label="Sizing example input" id="teglamennyiseg" aria-describedby="inputGroup-sizing-sm">
+                                  </div>
+                              </div>
+                              
+                              <div id="femt" style="display: none;"> 
+                                <div class="input-group input-group-sm mb-3" >
+                                    <span class="input-group-text" id="inputGroup-sizing-sm">Fém(t)</span>
+                                    <input type="number" class="form-control" aria-label="Sizing example input" id="femmenyiseg" aria-describedby="inputGroup-sizing-sm">
+                                  </div>
+                              </div>
+                              
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <button onclick="post(); get()" class="btn btn-primary">Elküld</button>
+                    </div>
+    
+                </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card">
+                <div style="margin: 40px;">
+                    <h1 class="text-center">Feljegyzett építkezések</h1>
+                    <p id="kiir"></p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+</body>
+<script>
+    function material_options()
+    {
+        if(document.getElementById("fa").checked)
+        {
+            document.getElementById("fat").style="display: block"
+        }
+        else
+        {
+            document.getElementById("fat").style="display: none"
+
+        }
+        if(document.getElementById("tegla").checked)
+        {
+            document.getElementById("teglat").style="display: block"
+        }
+        else
+        {
+            document.getElementById("teglat").style="display: none"
+
+        }
+        if(document.getElementById("fem").checked)
+        {
+            document.getElementById("femt").style="display: block"
+        }
+        else
+        {
+            document.getElementById("femt").style="display: none"
+        }
+    }
+
+    function get()
+    {
+
+        document.getElementById("kiir").innerHTML = "";
+        fetch("api.php")
+        .then(response => console.log(response.json))
+        .then(data =>{
+            console.log("irnam");
+            for (let i = 0; i < data; i++)
+            {
+                document.getElementById("kiir").innerHTML += "Építkezés: " + data[i].epitkezes + " " + "Emberek száma: " + data[i].emberek + " " + "Építkezés kezdetek: " + data[i].epitkezes_kezdete + " " + "Fa mennyiség: " + data[i].famennyiseg + " " + "Tégla mennyisége" + data[i].teglamennyiseg + " " + "Fém mennyisége: " + data[i].femmennyiseg + "<br>" 
+            }
+        })
+        .catch(error => console.log(error))
+    }
+    function post()
+    {
+        let epitkezes = document.getElementById("epitkezes").value;
+        let emberek = document.getElementById("emberek").value;
+        let epitkezes_kezdete = document.getElementById("epitkezes_kezdete").value;
+        let famennyiseg = document.getElementById("famennyiseg");
+        let teglamennyiseg = document.getElementById("teglamennyiseg");
+        let femmennyiseg = document.getElementById("femmennyiseg");
+        console.log("itt")
+        fetch("api.php",{
+            method: "POST",
+            headers:{'Content-Type':'application/json'},
+            body: JSON.stringify({"epitkezes": epitkezes, "emberek": emberek, "epitkezes_kezdete": epitkezes_kezdete, "famennyiseg":famennyiseg, "teglamennyiseg": teglamennyiseg, "femmennyiseg":femmennyiseg})
+
+        })
+        .then(error=> console.log(error))
+
+
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>

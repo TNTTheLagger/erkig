@@ -1,0 +1,18 @@
+CREATE TABLE hozzavalok (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nev VARCHAR(255) NOT NULL,
+    mertekegyseg VARCHAR(50) NOT NULL
+);
+
+
+INSERT INTO hozzavalok (nev, mertekegyseg) VALUES 
+('Liszt', 'g'),
+('Cukor', 'g'),
+('Só', 'g'),
+('Víz', 'ml'),
+('Tej', 'ml'),
+('Vaj', 'g'),
+('Tojás', 'db'),
+('Élesztő', 'g'),
+('Olaj', 'ml'),
+('Sajt', 'g');

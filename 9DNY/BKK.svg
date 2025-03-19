@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="BKK.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0167041"
+     inkscape:cx="563.09403"
+     inkscape:cy="412.60777"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Réteg 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g9">
+      <path
+         id="rect7"
+         style="fill:#ffffff;fill-opacity:1;stroke:#74288a;stroke-width:3.365;stroke-opacity:1;stroke-dasharray:none"
+         d="M 194.91213 46.879826 A 42.551346 42.551346 0 0 0 163.12338 61.196781 C 162.73515 61.134005 162.33975 61.092912 161.93327 61.092912 L 47.475655 61.092912 C 43.397887 61.092912 40.115381 64.375934 40.115381 68.453703 L 40.115381 110.40876 C 40.115381 114.48653 43.397887 117.76956 47.475655 117.76956 L 161.93327 117.76956 C 162.33975 117.76956 162.73515 117.72846 163.12338 117.66569 A 42.551346 42.551346 0 0 0 194.91213 131.98264 A 42.551346 42.551346 0 0 0 237.46302 89.431234 A 42.551346 42.551346 0 0 0 194.91213 46.879826 z " />
+      <rect
+         style="fill:#74288a;fill-opacity:1;stroke:#74288a;stroke-width:3.42584;stroke-dasharray:none;stroke-opacity:1"
+         id="rect8"
+         width="132.13922"
+         height="42.097446"
+         x="47.106514"
+         y="68.382507"
+         ry="7.6326618" />
+      <ellipse
+         style="fill:#74288a;fill-opacity:1;stroke:#74288a;stroke-width:3.492;stroke-dasharray:none;stroke-opacity:1"
+         id="path8"
+         cx="195.07426"
+         cy="89.431236"
+         rx="33.897343"
+         ry="34.157578" />
+      <circle
+         style="fill:#74288a;fill-opacity:1;stroke:#ffffff;stroke-width:4.665;stroke-dasharray:none;stroke-opacity:1"
+         id="path9"
+         cx="195.173"
+         cy="89.431236"
+         r="13.272053" />
+      <text
+         xml:space="preserve"
+         style="font-size:35.2778px;line-height:0.1;text-align:center;letter-spacing:7.69938px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:4.665;stroke-dasharray:none;stroke-opacity:1"
+         x="103.242"
+         y="102.6675"
+         id="text9"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.2778px;line-height:0.1;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:7.69938px;direction:ltr;stroke-width:4.665"
+           x="107.09169"
+           y="102.6675">BKK</tspan></text>
+    </g>
+  </g>
+</svg>
