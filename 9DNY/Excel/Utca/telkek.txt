@@ -1,0 +1,4 @@
+﻿A házak szintjeinek száma												Üres telkek száma	Házak száma	Lakások száma
+1	3	0	0	4	4	6	6	0	4	2	1
+2	4	0	0	4	0	6	6	3	0	2	1
+												Épület	Lakás	Százalék
