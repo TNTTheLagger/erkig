@@ -1,0 +1,8 @@
+id	cim	ev	hossz
+1	A Pogány Madonna	1980	98
+2	Csak semmi pánik	1982	83
+3	Az elvarázsolt dollár	1985	86
+4	Hamis a baba	1991	78
+5	Zsaruvér és Csigavér 1: A királyné nyakéke	2001	60
+6	Zsaruvér és Csigavér 2: Több tonna kámfor	2002	60
+7	Zsaruvér és Csigavér 3: A szerencse fia	2008	55

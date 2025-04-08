@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <h1>Új diák rögzítése</h1>
+                <label for="nev">Név: </label>
+                <input id="nev" type="text"> <br>
+                <label for="kor">Kor: </label>
+                <input id="kor" type="number">
+            </div>
+            <div class="col-12 col-sm-6">
+                <h1>Új jelentkezés rögzítése</h1>
+                <label for="diakid">Diák (id): </label>
+                <input id="diakid" type="number"> <br>
+                <label for="s1">Táborok: </label>
+                <select id="s1">
+                    <option value="Robotika">Robotika</option>
+                    <option value="Kézműves">Kézműves</option>
+                    <option value="Triatlon">Triatlon</option>
+                    <option value="Néptánc">Néptánc</option>
+                </select>
+                <button class="btn btn-primary">
+                    Rögzit
+                </button>
+            </div>
+            <div class="col-12">
+                <h1>Rögzített jelentkezések</h1>
+                <div class="list-group-item" id="kiirando">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+       
+    </script>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

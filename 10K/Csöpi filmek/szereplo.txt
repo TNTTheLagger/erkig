@@ -1,0 +1,176 @@
+id	szinesz	szerep
+1	Albert Flórián	Albert Flórián
+3	Áts Gyula	Szabó Ferenc
+4	Avar István	Tolnai Béla, balatonfüredi rendőrkapitány
+5	Bács Kati	Szekér "Pipi" Ilona
+6	Balla Ica	Zamoreczkyné
+7	Balogh Menyhért	Gengszter
+8	Bánhidi László	Matuska
+9	Bars József	Szerelmespár
+10	Basilides Zoltán	Kapa bácsi
+11	Bay Gyula	Johann
+13	Benedek Miklós	Mr. P. Smith, angol ékszerész
+14	Benkő Márta	Pincérnő a diszkóhajón
+15	Benkő Péter	Szemere nyomozó ("Csapos")
+16	Bessenyei Ferenc	Öreg színész
+17	Beszterczey Attila	Autótolvaj
+18	Bodrogi Gyula	Boros hadnagy
+19	Borbás Erika	Nő a hostessképzőben
+20	Boros Sándor	Gengszter
+21	Bujtor István	Ötvös Csöpi
+22	Csányi János	Piri
+23	Csizmadia Gergely	Venyige
+24	Csomor Ágnes	Recepciós Pécselyen
+25	Derzsi János	Gagyi
+26	Detre Annamária	Konsumex bolt vezetője
+27	Đoko Rosić	Alex/Heinrich Romfeld
+28	Dósa Zsuzsanna	Kovács Réka
+29	Dózsa László	Szörfös Dodi
+30	Dzsupin Ibolya	Kaszinó pénztáros
+32	Farkas Antal	Gengszter
+33	Fekete András	Gyula bácsi, rendőr
+34	Fekete Linda	Rendőrlány
+36	Földessy Margit	Vidámparki pénztáros
+37	Frajt Edit	Tacsányiné, a kastély igazgatója
+38	Fridenzi Éva	Frau Borg, teniszezőnő
+39	Galambos György	Benzinkutas
+40	Gálvölgyi János	Tangóharmonikás
+42	Gór Nagy Mária	Csíkné Zsuzsa
+43	Gór Nagy Mária	Mária, főhadnagy
+44	Gór Nagy Mária	Micike, titkárnő
+45	Hagara Alexa	Rendőrlány
+46	Halász László	Nagy Vilmos, szántódi rendőr
+47	Halász László	Utas a reptéren
+48	Harsay Gábor	Kardos embere
+49	Hernádi Judit	Vályi Zoltánné
+50	Hollósi Frigyes	Babaszállító
+51	Horesnyi László	Tacsányi Ferenc
+52	Hunyadkürti István	Gengszter
+53	Hunyadkürti István	Veréb
+54	Igó Éva	Bea, főhadnagy
+55	Janisch Éva	Molnár Irén
+56	Juhász Illés	Kardos embere
+57	Juhász Tamás	Kisfiú
+58	Kállai Ferenc	Csík István, vitorlázó
+59	Kállai Ferenc	Havilúd
+60	Kállay Ilona	Árverési kikiáltó
+62	Kamuthy Jenő	Orvos
+63	Karácsonyi Melinda	Rendőrlány
+64	Kárász Zénó	Kardos embere
+65	Kari Györgyi	Madame
+66	Kaszás Géza	Purci úr félszemű embere
+67	Kerekes József	Purci úr embere
+68	Kern András	Kardos doktor
+69	Kibédi Ervin	Éttermi dolgozó
+70	Kiss Jenő	Szállodaigazgató
+71	Kiss Zoltán	Prézli
+72	Kivés György	Galagonya
+73	Kocsis György	Rendőr
+74	Koncz Gábor	Bandavezér
+75	Konrád Antal	Dávid
+76	Konrád Antal	Kamiontelep-vezető
+77	Kopekin Györgyi	Bögyös Maca
+78	Koppány Zoltán	Szakács
+80	Kossovits Mónika	Matuska Ilona (az unoka)
+81	Kovács István	Soltész Gábor, Csík mannschaftja
+82	Kovács János	Kovács József
+83	Kovács Károly	Öreg horgász
+84	Kozák László	Gondnok
+85	Kozák László	Purci úr
+87	Kökényessy Ági	Pincérnő
+88	Köllő Babett	Panni
+89	Könyves Zsuzsa	Lány a jachton
+90	Körtvélyessy Zsolt	Igazgató
+91	Körtvélyessy Zsolt	Pista, a badeni kaszinó magyar alkalmazottja
+92	Kristály Barbara	Topolino
+93	Kun Vilmos	Guszti bácsi
+94	Labancz Lilla	Ilonka
+96	Láng József	Bárdos
+97	Leisen Antal	Cövek
+98	Lippai László	Sebes Jenő, Gonda Béla kamionos társa
+99	Lugosi György	Megfigyelő
+100	Márta András	Öcsi, helikopterpilóta
+101	Martin Márta	Feleség a reptéren
+102	Márton István	kábítószercsempész
+103	Márton István	Szalmakalapos turista Dugó mellett
+104	Maszlay István	Étteremvezető
+105	Maszlay István	Kálló Ferenc
+106	Medveczky Ilona	Horváth Éva
+107	Méhes László	Szenes, kamionsofőr
+108	Mézes Violetta	Mezei Vivi, riporternő
+109	Miklósy György	Térképész
+110	Milka Julianna	Rendőrlány
+111	Molnár Judit	Gizi
+112	Mucsi Sándor	Gengszter
+113	Nagy Balázs	Varga Richárd
+114	Németh László	Bélai alhadnagy
+115	Némethy Ferenc	Főapát
+116	Nyakó Júlia	Arany
+117	Nyertes Zsuzsa	Zsuzsi
+119	Orosz István	Rendőr a tavasbarlangban
+120	Paláncz Ferenc	Járőr
+121	Pálok Gábor	Bence (Matuska unokája)
+122	Papadimitriu Athina	Nikosz Sztálikisz felesége
+123	Pető János	Szántó János "Jana", vitorlázó
+124	Petra Hinze	Sybille Gudrat
+125	Piroch Gábor	"Nokedli"
+126	Piroch Gábor	Gengszter
+127	Pituk István	Kanyó István, vitorlázó
+128	Posonyi Takács László	Muki
+129	Posta Lajos	Benzinkutas
+130	Prókai Éva	Ági
+131	Prókay Annamária	Stewardess
+132	Psota Irén	Lukrécia
+133	Puskás Ferenc	Puskás Ferenc
+134	Rák Kati	Kati, Alex titkos barátnője
+135	Rák Kati	Mariska bárónő
+136	Raksányi Gellért	Berger
+137	Reviczky Gábor	A kiemelést vezető matróz
+138	Rupnik Károly	Zsidai Imre
+139	Sáfár Anikó	Wágner Helga
+140	Schwimmer János	Dugó
+141	Siklósi Örs	Guriga
+142	Simon Géza	Dinnye
+143	Simonkovits Ákos	Autótolvaj
+144	Sipka László	Férfi a kaszinónál
+145	Sipos Eszter Anna	Rendőrlány
+146	Sipos István	Taxiutas
+147	Solti Bertalan	Siminszki, tihanyi horgász és a hotel éjjeliőre
+148	Sörös Sándor	Színész Bob / Oszkár
+149	Sunyovszky Szilvia	Kovács Ibi
+150	Szabó Géza	Buci
+151	Szabó Győző	Buga János
+152	Szántó Szandra	Rendőrlány
+153	Szegő András	Kardos embere
+154	Székhelyi József	Pötyi, dadogós
+156	Szerencsi Hugó	Imre bácsi, templomszolga
+157	Szilágyi István	Dinnyeárus
+158	Szilágyi István	Ékszerész
+159	Szilágyi István	Schumann, osztrák vitorlázó
+160	Szilágyi István	Szivar, Purci úr embere
+162	Szoboszlai Sándor	Zamoreczky
+163	Szulák Andrea	Vörösbegy
+164	Szűr Mari	Szerelmespár
+165	Temessy Hédi	Alex felesége
+166	Téri Sándor	Günter
+167	Téri Sándor	Jani, szántódi rendőr
+168	Timkó János	Védelmi pénzt szedő maffiózó
+169	Tolnai Miklós	Somos János tiszteletes
+170	Tóth Enikő	Márta
+171	Tóth-Tahi Máté	Részeg teherautó-sofőr
+172	Tóth-Tahi Máté	Szabó Jocó, kamionsofőr
+174	Tuza Bálint	Ricsi
+175	Tuza Bálint	Szabó Géza Béla, államtitkár
+176	Tyll Attila	Kardos főnöke
+177	Ullmann Mónika	Rendőrlány
+178	Ungvári István	Gengszter
+179	Urmai Gábor	Kardos embere
+181	Vándor Attila	Ékszerrabló
+182	Vanya Tímea	Lukács őrmester
+183	Várfi Sándor	"Rozoga" Jenei Botond
+185	Varga Katalin	Zsuzsi, fiatal nő a zsűrihajón
+186	Vincze Gábor Péter	Szabó úr
+187	Wichmann Tamás	Popej
+188	Závodszky Noémi	Keramikus
+189	Zenthe Ferenc	Záray István, balatonfüredi rendőrkapitány, később államtitkár
+190	Zsebők János	Hans
